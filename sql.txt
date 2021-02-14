@@ -1,0 +1,6 @@
+create database edubridge;
+use edubridge;
+create table user1(user varchar(20),pwd varchar(20),
+fname varchar(20),lname varchar(20),email varchar(20)); 
+desc users;
+select * from user1;
